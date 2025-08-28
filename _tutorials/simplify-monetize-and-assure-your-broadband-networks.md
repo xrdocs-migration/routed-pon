@@ -56,7 +56,11 @@ In summary, transitioning from Layer 2 switching to Layer 3 routed access in rur
 
 Cisco [Agile Services Networking](https://www.cisco.com/c/en/us/products/collateral/service-provider/agile-services/agile-services-networking-so.html) is an architecture designed to power connectivity and customer experiences. It enables broadband service providers to monetize the delivery of assured services and networking. With Agile Services Networking, organizations can  deploy services closer to end-users for intelligent service delivery, remove complexity with simplified networks that converge network layers and services, and assure experiences with resilient networks and services enabled by AI-powered automation, observability, and security.
 
-
+![agile.png]({{site.baseurl}}/images/agile.png)
 
 Routed PON is a validated use case within Cisco Agile Service Networking, illustrating how PON can be seamlessly integrated into a converged, agile infrastructure to deliver scalable and flexible broadband services. By reducing the OLT to a pluggable module, it can be easily incorporated into access and aggregation routers. This integration simplifies the network with a single operating system, enabling operators to benefit from unified management and advanced service capabilities.
-By leveraging advanced transport technologies such as Segment Routing (including SRv6) and overlay solutions like EVPN, broadband providers can build programmable networks that are ready to meet future demands.
+By leveraging advanced transport technologies such as Segment Routing (including SRv6) and overlay solutions like EVPN, broadband providers can build programmable networks that are ready to meet future demands. Cisco's [cloud native Broadband Network Gateway(BNG)](https://www.cisco.com/c/en/us/td/docs/routers/asr9000/software/25xx/cloud-native-bng/configuration/guide/b-cnbng-user-plane-cg-asr9000-25xx/cloud-native-bng-overview.pdf) acts as a central access point for subscriber connectivity. The BNG manages user authentication, traffic routing, and quality of service (QoS), ensuring reliable broadband access for large groups of users at the scale required by the providers. This centralized control provides operational efficiency, scalability for managing large subscriber bases, and enables the delivery of diverse broadband services such as internet, IPTV, and VoIP through a unified connection.
+Furthermore, Cisco's solution leverages advanced hardware technologies, including [TAM chips] (https://www.cisco.com/c/en/us/td/docs/iosxr/ncs5500/security/25xx/configuration/guide/b-system-
+security-cg-ncs5500-25xx.html), to enhance network security.
+
+
