@@ -65,13 +65,29 @@ security-cg-ncs5500-25xx.html), to enhance network security.
 
 ## Cisco Routed PON Architecture
 
-As described in the previous blog, following are the main components. The first one is the physical hardware itself, that is the NCS540 or NCS5500 or NCS5700 router which is hosting the OLT pluggable as well as the PON controller software. The OLT pluggables can be plugged into the supported SFP+ ports. The second component is the OLT pluggable. It consists of the L1 transceiver as well as the L2 MAC features for PON functions. The third component is the ONUs/ONTs which will be used to plug the end devices. The fourth one is the PON manager which is a single web GUI for configuring, monitoring and diagnosing the end to end PON functionalities. The final one is the Cisco Provider connectivity assurance which will help to deliver assured services to the end users. Let us discuss how each components are stitched together. 
+As described in the previous [blog](https://xrdocs.io/routed-pon/tutorials/cisco-routed-pon-whitepaper/), following are the main components. The first one is the physical hardware itself, that is the NCS540 or NCS5500 or NCS5700 router which is hosting the OLT pluggable as well as the PON controller software. The OLT pluggables can be plugged into the supported SFP+ ports. The second component is the OLT pluggable. It consists of the L1 transceiver as well as the L2 MAC features for PON functions. The third component is the ONUs/ONTs which will be used to plug the end devices. The fourth one is the PON manager which is a single web GUI for configuring, monitoring and diagnosing the end to end PON functionalities. The final one is the Cisco Provider connectivity assurance which will help to deliver assured services to the end users. Let us discuss how each components are stitched together. 
 
 ![Screenshot 2025-08-28 at 2.18.12 PM.png]({{site.baseurl}}/images/Screenshot 2025-08-28 at 2.18.12 PM.png)
 
-Above is the system architecture, where all components are seamlessly integrated:
+Above is the system architecture, where all components are seamlessly integrated. The router hosts OLT pluggable modules, which connects to multiple ONUs/ONTs via a splitter. Communication between OLTs and ONUs is established using the standard OMCI protocol. The router runs PON controller software within a Docker container. The controller securely interacts with a database over IP-TLS; the database manages data storage and configuration information provided by the controller. The PON manager software offers both a graphical user interface and a REST API, accessing the database through a web server application. A Netconf server provides a standard Netconf interface and a customer-facing API for managing the PON network. The solution supports standard YANG models for configuring subscriber services within the PON network.
 
-The router hosts OLT pluggable modules, which connects to multiple ONUs/ONTs via a splitter. Communication between OLTs and ONUs is established using the standard OMCI protocol. The router runs PON controller software within a Docker container. The controller securely interacts with a database over IP-TLS; the database manages data storage and configuration information provided by the controller. The PON manager software offers both a graphical user interface and a REST API, accessing the database through a web server application. A Netconf server provides a standard Netconf interface and a customer-facing API for managing the PON network. The solution supports standard YANG models for configuring subscriber services within the PON network.
+The solution is supported with the below Cisco products:
+
+| Cisco PIDs                      |
+|---------------------------------|
+| N540-24Z8Q2C-SYS/  N540-ACC-SYS |
+| N540-24Q8L2DD-SYS               |
+| N540X-16Z4G8Q2C                 |
+| N540-28Z4C-SYS                  |
+| N540-24Q2C2DD-SYS               |
+| NCS-55A2-MOD-S                  |
+| NCS-57C1-48Q6D                  |
+| NCS-55A1-24Q6H-SS               |
+| NCS-57C3-MOD                    |
+
+
+
+
 
 
 
