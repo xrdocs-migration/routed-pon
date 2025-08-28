@@ -63,4 +63,4 @@ By leveraging advanced transport technologies such as Segment Routing (including
 Furthermore, Cisco's solution leverages advanced hardware technologies, including [TAM chips] (https://www.cisco.com/c/en/us/td/docs/iosxr/ncs5500/security/25xx/configuration/guide/b-system-
 security-cg-ncs5500-25xx.html), to enhance network security.
 
-## Architecture
+## Cisco Routed PON Architecture
