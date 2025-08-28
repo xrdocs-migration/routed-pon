@@ -71,7 +71,7 @@ As described in the previous [blog](https://xrdocs.io/routed-pon/tutorials/cisco
 
 Above is the system architecture, where all components are seamlessly integrated. The router hosts OLT pluggable modules, which connects to multiple ONUs/ONTs via a splitter. Communication between OLTs and ONUs is established using the standard OMCI protocol. The router runs PON controller software within a Docker container. The controller securely interacts with a database over IP-TLS; the database manages data storage and configuration information provided by the controller. The PON manager software offers both a graphical user interface and a REST API, accessing the database through a web server application. A Netconf server provides a standard Netconf interface and a customer-facing API for managing the PON network. The solution supports standard YANG models for configuring subscriber services within the PON network.
 
-The solution is supported with the below Cisco products:
+Currently solution is supported with the below Cisco products. 
 
 | Cisco PIDs                      |
 |---------------------------------|
@@ -85,7 +85,7 @@ The solution is supported with the below Cisco products:
 | NCS-55A1-24Q6H-SS               |
 | NCS-57C3-MOD                    |
 
-
+**Note:** New PIDs are in roadmap
 
 
 
