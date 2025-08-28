@@ -50,13 +50,3 @@ Cisco's Routed PON solution is designed to modernize rural broadband networks by
 **Support for Advanced Services**: Layer 3 access enables better integration with modern IP services, automation, and policy enforcement, all of which are increasingly important as subscriber needs evolve.
 
 In summary, transitioning from Layer 2 switching to Layer 3 routed access in rural broadband networks brings significant scalability, operational, and service innovation benefits, enabling operators to efficiently meet growing and evolving customer demands.
-
-
-
-
-
-
-
-
-
-
