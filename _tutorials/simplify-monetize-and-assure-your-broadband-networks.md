@@ -75,7 +75,7 @@ The solution is supported with the below Cisco products:
 
 | Cisco PIDs                      |
 |---------------------------------|
-| N540-24Z8Q2C-SYS/  N540-ACC-SYS |
+| N540-24Z8Q2C-SYS/N540-ACC-SYS   |
 | N540-24Q8L2DD-SYS               |
 | N540X-16Z4G8Q2C                 |
 | N540-28Z4C-SYS                  |
@@ -84,6 +84,8 @@ The solution is supported with the below Cisco products:
 | NCS-57C1-48Q6D                  |
 | NCS-55A1-24Q6H-SS               |
 | NCS-57C3-MOD                    |
+
+
 
 
 
