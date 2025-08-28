@@ -70,3 +70,10 @@ As described in the previous blog, following are the main components. The first 
 ![Screenshot 2025-08-28 at 2.18.12 PM.png]({{site.baseurl}}/images/Screenshot 2025-08-28 at 2.18.12 PM.png)
 
 
+Above is the system architecture, where all components are seamlessly integrated:
+
+
+The router hosts OLT pluggable modules, which connects to multiple ONUs/ONTs via a splitter. Communication between OLTs and ONUs is established using the standard OMCI protocol. The router runs PON controller software within a Docker container. The controller securely interacts with a database over IP-TLS; the database manages data storage and configuration information provided by the controller. The PON manager software offers both a graphical user interface and a REST API, accessing the database through a web server application. A Netconf server provides a standard Netconf interface and a customer-facing API for managing the PON network. The solution supports standard YANG models for configuring subscriber services within the PON network.
+
+
+
