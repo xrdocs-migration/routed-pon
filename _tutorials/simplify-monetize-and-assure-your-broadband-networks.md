@@ -13,7 +13,7 @@ tags:
   - Assurance
   - PCA
   - OLT
-position: bottom
+position: hidden
 ---
 ## Introduction
 
@@ -31,6 +31,27 @@ Before we delve deeper into the solution, let’s examine current subscriber tre
 The shift towards the hybrid work model has increased the demand for additional bandwidth and necessitated enhancements to existing infrastructure to support next-generation applications and services. We are seeing a rise in emerging applications that enhance user experiences, such as augmented reality (AR), virtual reality (VR), and the metaverse. Gaming is a booming industry that requires low latency and high bandwidth, further driving broadband needs. It's not just residential users; but small and medium businesses are also seeing increased broadband demand to enhance their business models and provide new experiences for their end customers. These evolving subscriber demands, whether from home or business users, are challenging operators to innovate and upgrade their broadband networks.
 
 How do these subscriber trends impact operators? In recent years, we have witnessed an unprecedented surge in data consumption—a trend that is only expected to accelerate with the growing adoption of AI technologies. Simply adding more bandwidth is not a sufficient solution. Instead, operators must select the right solutions and architectural upgrades to their networks in order to effectively meet the evolving and increasing demands of their customers.
+
+## Moving away from Layer2 to Layer3
+
+Cisco's Routed PON solution is designed to modernize rural broadband networks by moving from traditional Layer 2 (switching) access to a Layer 3 (routed) architecture. This approach places IP routing closer to subscribers, simplifying the network by reducing the number of protocols and layers needed between access and core, and enabling more scalable and manageable broadband deployments. 
+
+
+Why Move from Layer2 to [Routed Access]([[Reference](https://xrdocs.io/design/blogs/2023-11-15-routed-access-for-rural-broadband/)])?
+
+**Scalability**: Layer 2 networks become complex and difficult to scale as the number of subscribers increases due to broadcast domains, MAC address learning, and spanning-tree limitations.
+
+**Simplified Operations**: Routed access reduces the need for Layer 2 protocols and makes the network less prone to issues like loops and broadcast storms.
+
+**Enhanced Security**: Segmentation and security are easier to implement at Layer 3, helping operators protect customer traffic.
+
+**Improved Fault Isolation**: Routing protocols facilitate faster and more granular fault detection and isolation compared to Layer 2.
+
+**Support for Advanced Services**: Layer 3 access enables better integration with modern IP services, automation, and policy enforcement, all of which are increasingly important as subscriber needs evolve.
+
+In summary, transitioning from Layer 2 switching to Layer 3 routed access in rural broadband networks brings significant scalability, operational, and service innovation benefits, enabling operators to efficiently meet growing and evolving customer demands.
+
+
 
 
 
