@@ -15,6 +15,8 @@ tags:
   - OLT
 position: hidden
 ---
+{% include toc icon="table" title="Simplify, Monetize and Assure Your Broadband Networks" %}
+
 ## Introduction
 
 In our previous [blog post](https://xrdocs.io/routed-pon/tutorials/cisco-routed-pon-whitepaper/), we introduced the Cisco Routed PON solution, highlighting the challenges faced in current PON deployments and how Cisco’s approach addresses these issues. We also explored various government broadband initiatives and funding efforts designed to expand broadband access in underserved communities. Additionally, we provided an overview of the solution’s key components and high-level architecture.
@@ -87,9 +89,27 @@ Currently solution is supported with the below Cisco products.
 
 **Note:** New PIDs are in roadmap
 
+Cisco PON OLT is available in 2 variants
 
+| PID                       | SFP-10G-OLT20-X                                   | SFP-10G-OLT20-I (available IOS-XR 25.4.1)         |
+|---------------------------|---------------------------------------------------|---------------------------------------------------|
+| Dimension(H x W x D)      | 8.55mm x 13.4mm x 80.65mm                         | 8.55mm x 13.4mm x 75.55mm                         |
+| Data rate                 | Symmetric rates: 9.95G  upstream/9.95G downstream | Symmetric rates: 9.95G  upstream/9.95G downstream |
+| Connector Type            | SC/UPC                                            | SC/UPC                                            |
+| Distance                  | < 60 km                                           | < 20 km                                           |
+| Operating temperature     | -20°C to 75°C                                     | -40°C to 85°C                                     |
+| Typical Power Consumption | 2.475W                                            | 2.2W                                              |
+| Cable Type                | Single Mode Fiber                                 | Single Mode Fiber                                 |
+| ODN Class                 | N2                                                | PR30+                                             |
 
+Below is the Cisco ONT/ONU portfolio
 
-
-
-
+| PID                             | Port Details                                                                                              | Operating Temperature | Features and use cases                                                                                       |
+|---------------------------------|-----------------------------------------------------------------------------------------------------------|-----------------------|--------------------------------------------------------------------------------------------------------------|
+| ENC-10G-ONT-10 (IOSXR 25.4.1)   | 1x10G (RJ-45)                                                                                             | 0°C to 40°C           | -Small Desktop or wall mountable -Purpose built for small and medium size  business and Enterprise (SMB/SME) |
+| ENC-10G-ONT-01PR (IOSXR 25.4.1) | 1 x 10M/100M/1G/2.5G (RJ-45) with POE                                                                     | -40°C to 65°C         | -Ruggedized, weather-proof and purpose  built for residential and small office  applications (SOHO)          |
+| ENC-10G-ONT-14A (IOSXR 25.4.1)  | 4 x 100M/1GbE (RJ-45)  1 x 1/2.5/5/10G (RJ-45)  1 x FXS Voice Port (RJ-11)                                | 0°C to 40°C           | -Multi-port ONU with Analog Terminal  Adaptor purpose built for residential, MDU &  SMB/SOHO                 |
+| SFP-10G-ONT20-I (IOSXR 26.1.1)  | 1x10G XGS PON SFP                                                                                         | -40°C to 85°C         | -Allows flexible deployments for low-cost  metro applications                                                |
+| ENC-10G-ONT-14AS (CY 2026)      | 4 x 10M/100M/1G (RJ-45)  1 x 1G/2.5G/10G (RJ-45)  1 x FXS Voice port (RJ-11)  POE++ (90W) on 1G/10G ports | 0°C to 40°C           | -Power sourcing ONU with ATA ideal for  MDUs and buildings in hospitality industry for  PON LAN requirements |
+| ENC-10G-ONT-14AW (CY 2026)      | 1 x 1G/2.5G/5G/10G (RJ-45)  4 x 10M/100M/1G (RJ-45)                                                       | 0°C to 40°C           | -Ideal for SMB/SME/SOHO applications                                                                         |
+| ENC-10G-ONT-05GW (CY 2026)      | 4 x 10M/100M/1G (RJ-45)  1 x 1G/2.5G (RJ-45) WAN                                                          | 0°C to 40°C           | -WiFi 6 compliant gateway offering Gig+  speeds ideal for FTTx Deployments                                   |
