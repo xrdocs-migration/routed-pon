@@ -134,8 +134,23 @@ Cisco's unique combination of a comprehensive feature set and a notably low cost
 
 ## TCO savings 
 
+
+
 ## Cisco Value Add 
-   - PCA
+
+Now let us explore the value Cisco Routed PON brings in and how it can be differentiated from the competitors
+
+### Provider Connectivity Assurance (PCA)
+
+The first differentiator is Cisco's Provider Connectivity Assurance. PCA is a solution designed to help broadband providers ensure the reliability, performance, and availability of their network infrastructure. It offers advanced visibility, proactive monitoring, and automated insights to identify and resolve potential connectivity issues before they impact services. This helps providers deliver a consistent and high-quality experience to their customers. The PCA solution comprises of three core components: sensors, an analytics engine, and a dashboard.
+
+- Sensors are deployed at strategic locations within the network to monitor real-time connectivity for the data path.
+- The analytics engine processes the collected data using advanced algorithms to proactively identify anomalies, detect performance bottlenecks, and generate actionable insights.
+- The dashboard provides a centralized view of network performance, allowing administrators to monitor key metrics and troubleshoot issues.
+
+
+
+
    - Secure DDoS 
    - NSO
    
