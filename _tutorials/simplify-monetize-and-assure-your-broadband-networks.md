@@ -113,3 +113,31 @@ Below is the Cisco ONT/ONU portfolio
 | ENC-10G-ONT-14AS (CY 2026)      | 4 x 10M/100M/1G (RJ-45)  1 x 1G/2.5G/10G (RJ-45)  1 x FXS Voice port (RJ-11)  POE++ (90W) on 1G/10G ports | 0°C to 40°C           | -Power sourcing ONU with ATA ideal for  MDUs and buildings in hospitality industry for  PON LAN requirements |
 | ENC-10G-ONT-14AW (CY 2026)      | 1 x 1G/2.5G/5G/10G (RJ-45)  4 x 10M/100M/1G (RJ-45)                                                       | 0°C to 40°C           | -Ideal for SMB/SME/SOHO applications                                                                         |
 | ENC-10G-ONT-05GW (CY 2026)      | 4 x 10M/100M/1G (RJ-45)  1 x 1G/2.5G (RJ-45) WAN                                                          | 0°C to 40°C           | -WiFi 6 compliant gateway offering Gig+  speeds ideal for FTTx Deployments                                   |
+
+
+## Competititive Analysis
+
+Cisco's unique combination of a comprehensive feature set and a notably low cost within the Pluggable OLT category provides a significant competitive advantage. This positions Cisco favorably against other vendors, including those in both the pluggable and traditional chassis-based OLT segments, many of whom present higher cost structures. Cisco's major strengths includes:
+
+- Universal [Access](https://www.cisco.com/site/us/en/products/networking/sdwan-routers/network-convergence-system-540-series/index.html) and [Aggregation](https://www.cisco.com/site/us/en/products/networking/sdwan-routers/network-convergence-system-5500-series/index.html)
+- Advanced [routing](https://www.cisco.com/c/en/us/td/docs/iosxr/ncs5xx/routing/79x/b-routing-cg-79x-ncs540/implementing-static-routes.html) features
+- Full support for next generation transport technologies ([SR/SRv6](https://www.cisco.com/c/en/us/td/docs/iosxr/ncs5xx/segment-routing/25xx/b-segment-routing-cg-25xx-ncs540.html))
+- Support for [EVPN](https://www.cisco.com/c/en/us/td/docs/iosxr/ncs5xx/l2vpn/25xx/b-l2vpn-cg-25xx-ncs540.html) for overlay services 
+- 3rd party ONT/ONU flexibility 
+- MEF Certified products 
+- [Secure DDoS Prevention](https://www.cisco.com/site/us/en/products/security/ddos-edge-protection/index.html) at the entry of the network
+- Network Service Orchestration (NSO) for managing network via Netconf/YANG
+- Enhanced Assurance using [Provider Connectivity Assurance](https://www.cisco.com/site/us/en/products/networking/software/provider-connectivity-assurance/index.html) (PCA) 
+- Availability of Pay as you grow model
+- Low Cost
+
+
+## TCO savings 
+
+## Cisco Value Add 
+   - PCA
+   - Secure DDoS 
+   - NSO
+   
+
+## Conclusion 
