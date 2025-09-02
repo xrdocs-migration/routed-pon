@@ -58,7 +58,7 @@ Cisco PON OLT is a feature rich device contained in a hot pluggable SFP+ form fa
 | PID                       | SFP-10G-OLT20-X                                  |
 | Data rate                 | Symmetric rates: 9.95G upstream/9.95G downstream |
 | Connector Type            | SC/UPC                                           |
-| Maximum Distance          | 20 km                                            |
+| Maximum Distance          | < 20 km                                            |
 | Operating Temperature     | -20°C to 75°C                                    |
 | Typical Power Consumption | 2.475W                                           |
 | Average Launch Power      | 4 dbm min 7 dbm max                              |
