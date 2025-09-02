@@ -158,15 +158,14 @@ By deploying sensors at strategic points, providers are able to measure network 
 
 The dashboard provides visual displays for delay metrics in real time to identify performance bottlenecks and diagnose common issues. 
 
+![Screenshot 2025-09-02 at 3.29.05 PM.png]({{site.baseurl}}/images/Screenshot 2025-09-02 at 3.29.05 PM.png)
+
 
 ![Screenshot 2025-09-02 at 2.43.03 PM.png]({{site.baseurl}}/images/Screenshot 2025-09-02 at 2.43.03 PM.png)
 
-The analytics engine is used to identify trends and patterns in network performance, enabling proactive optimization.
-
-
+The analytics engine is used to identify trends and patterns in network performance, enabling proactive optimization. 
 
 An assured network delivers significant business value across several key areas:
-
 
 **Differentiated Services & Revenue Growth:** By enabling advanced capabilities like end-user customer portals, operators can offer premium, differentiated services, potentially capturing a 25-40% premium on standard offerings.
 
