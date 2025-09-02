@@ -153,9 +153,10 @@ The first differentiator is Cisco's Provider Connectivity Assurance. PCA is a so
 
 By deploying sensors at strategic points, providers are able to measure network and service performance with clear indication of health of the segments. Sensors are configured for data collection to monitor relevant metrics such as latency, delay, packet loss, throughput, and jitter. Thresholds (static or dynamic) are set to trigger alerts when performance deviates from acceptable levels. 
 
+![Screenshot 2025-09-02 at 2.38.31 PM.png]({{site.baseurl}}/images/Screenshot 2025-09-02 at 2.38.31 PM.png)
 
 
-The dashboard provides visual displays for these key metrics in real time to identify performance bottlenecks and diagnose common issues. The analytics engine is used to identify trends and patterns in network performance, enabling proactive optimization.
+The dashboard provides visual displays for delay metrics in real time to identify performance bottlenecks and diagnose common issues. The analytics engine is used to identify trends and patterns in network performance, enabling proactive optimization.
 
 
 An assured network delivers significant business value across several key areas:
