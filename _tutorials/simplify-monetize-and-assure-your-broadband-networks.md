@@ -39,7 +39,7 @@ How do these subscriber trends impact operators? In recent years, we have witnes
 Cisco's Routed PON solution is designed to modernize rural broadband networks by moving from traditional Layer 2 (switching) access to a Layer 3 (routed) architecture. This approach places IP routing closer to subscribers, simplifying the network by reducing the number of protocols and layers needed between access and core, and enabling more scalable and manageable broadband deployments. 
 
 
-### Why Move from Layer2 to [Routed Access]([[Reference](https://xrdocs.io/design/blogs/2023-11-15-routed-access-for-rural-broadband/)])?
+### Why Move from Layer2 Access to [Routed Access]([[Reference](https://xrdocs.io/design/blogs/2023-11-15-routed-access-for-rural-broadband/)])?
 
 **Scalability**: Layer 2 networks become complex and difficult to scale as the number of subscribers increases due to broadcast domains, MAC address learning, and spanning-tree limitations.
 
