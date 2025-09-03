@@ -194,9 +194,7 @@ Model-Driven Automation (YANG): The use of YANG models provides a standardized, 
 
 **Example service templates**
 
-<div class="highlighter-rouge">
-<pre class="highlight">
-<code>
+```
 <config xmlns="http://tail-f.com/ns/config/1.0">
   <devices xmlns="http://tail-f.com/ns/ncs">
     <device>
@@ -216,9 +214,8 @@ Model-Driven Automation (YANG): The use of YANG models provides a standardized, 
     </device>
   </devices>
 </config>
-</code>
-</pre>
-</div>
+
+```
 
 
 In essence, Cisco NSO empowers organizations to transform their network operations from manual, error-prone processes to automated, agile, and reliable service delivery engines, crucial for modern digital infrastructures.n
