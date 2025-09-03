@@ -263,6 +263,6 @@ The benefits of the cnBNG architecture are:
 
 ## TCO Savings
   
-   
+ 
 
 ## Conclusion
