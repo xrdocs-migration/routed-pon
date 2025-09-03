@@ -237,6 +237,28 @@ This is a specialized software solution integrated directly into Cisco IOS XR ro
 
 ### CUPS BNG
 
+The [Cisco Cloud Native Broadband Network Gateway (cnBNG)](https://www.cisco.com/c/en/us/td/docs/routers/asr9000/software/25xx/cloud-native-bng/configuration/guide/b-cnbng-user-plane-cg-asr9000-25xx/cloud-native-bng-overview.pdf) provides a new dimension to the Control Plane and User Plane Separation (CUPS) architecture of the Broadband Network Gateway (BNG), enabling flexibility and rapid scaling for Broadband Service Providers (BSPs). In the cnBNG architecture, the Control Planes(CP) and User Planes(UP) are clearly and cleanly separated from each other and run in completely distinct and independent environments. The BNG CP is moved out to a container-based microservice cloud environment. The UP can be on any of the physical platforms that supports the userplane. 
+
+**Business Values and Advantages:**
+
+The benefits of the cnBNG architecture are:
+
+- Simplified and unified BNG CP
+- Platform independent and Network Operation System (NOS) agnostic BNG CP
+- Unified Policy interface across both BNG and mobility
+- Common infrastructure across wireline and mobility
+- Seamless migration from existing deployments
+- Leverage the common infrastructure across access technologies
+- Standardized model driven interface with the UP
+- Data externalization for North-bound interfaces (NBI)
+- Highly available and fault tolerant
+- Simplified Subscriber Geo redundancy
+- Horizontally scalable CP
+- Independent CP and UP upgrades
+- Feature agility with CI and CD
+- Manageability and Operational Simplification
+
+
 ## TCO Savings
   
    
