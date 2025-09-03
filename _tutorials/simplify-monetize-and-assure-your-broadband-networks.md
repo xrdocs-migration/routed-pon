@@ -132,10 +132,6 @@ Cisco's unique combination of a comprehensive feature set and a notably low cost
 - Low Cost
 
 
-## TCO savings 
-
-
-
 ## Cisco Value Add 
 
 Now let us explore the value Cisco Routed PON brings in and how it can be differentiated from the competitors
@@ -178,6 +174,7 @@ An assured network delivers significant business value across several key areas:
 As discussed above, we can use either the web UI or netconf application to provision and monitor the PON network. We can use Cisco NSO for the same. [NSO] (https://www.cisco.com/site/us/en/products/networking/software/crosswork-network-services-orchestrator/index.html) is a multi-vendor, multi-domain service orchestration platform designed to automate the configuration and management of network services across diverse network devices and technologies. It acts as a central control point, abstracting away the complexities of individual device configurations and enabling end-to-end service delivery automation. NSO uses a model-driven approach (specifically YANG models) to define services and devices, allowing for consistent and reliable automation regardless of the vendor or technology involved.
 
 
+
 **Business Case for Cisco NSO:**
 
 Accelerated Service Delivery: Traditional manual configuration processes are slow and prone to errors. NSO automates these processes, significantly reducing the time it takes to design, provision, and activate new network services.
@@ -215,13 +212,29 @@ Model-Driven Automation (YANG): The use of YANG models provides a standardized, 
   </devices>
 </config>
 
-```
+``` 
+
+The above xml service template applies a service config to a particular ONU. This process can be completely automated via NSO and PON network can be configured. Likewise different services can be pre-defined and committed via NSO. In essence, Cisco NSO empowers organizations to transform their network operations from manual, error-prone processes to automated, agile, and reliable service delivery engines, crucial for modern digital infrastructures.
 
 
-In essence, Cisco NSO empowers organizations to transform their network operations from manual, error-prone processes to automated, agile, and reliable service delivery engines, crucial for modern digital infrastructures.n
+### Secure DDoS 
+
+This is a specialized software solution integrated directly into Cisco IOS XR routers, such as the NCS 540 series, to provide robust security at the network edge. It autonomously detects and mitigates DDoS attacks in real-time at the ingress points of the network. This approach is particularly beneficial for low-latency applications, mobile, and IoT environments, and for service providers managing large-scale, distributed networks. 
 
 
-- Secure DDoS 
+**Business Values and Advantages:**
+
+
+- **On-box Protection & Cost-Effectiveness:** The solution is integrated as docker on existing Cisco IOS XR routers, eliminating the need for additional hardware and reducing overall budget and Total Cost of Ownership (TCO). This can seamlessly run with the PON controller docker.
+- **Real-time, Line-Rate Mitigation:** Attacks are detected and mitigated autonomously and at line rate, ensuring that legitimate traffic flows unimpeded and preventing malicious traffic from overwhelming the network.
+- **Zero Impact on Performance:** By blocking attacks without diverting or buffering traffic, it guarantees optimal performance for low-latency applications, which is critical for 5G and IoT services.
+- **Simplified Operations:** Offers quick and automatic deployment, simplifying network operations by providing a clear separation between network operation and security protection tools.
+- **Improved User Experience:** By stopping DDoS attacks at the network edge, it minimizes customer outages and optimizes the end-user experience.
+- **Enhanced Visibility and Adaptability:** Provides full visibility into threats by characterizing attacks and their signatures in real-time, dynamically adapting mitigation strategies as attack vectors change.
+
+### CUPS BNG
+
+## TCO Savings
   
    
 
