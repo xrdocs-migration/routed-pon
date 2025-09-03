@@ -263,6 +263,9 @@ The benefits of the cnBNG architecture are:
 
 ## TCO Savings
   
- 
+![Screenshot 2025-09-03 at 9.57.18 AM.png]({{site.baseurl}}/images/Screenshot 2025-09-03 at 9.57.18 AM.png)
+
+The above figure illustrates how Cisco Routed PON with pluggable optics empowers service providers to efficiently scale subscriber bandwidth while deploying networks in a highly cost-effective manner. By simplifying hardware requirements and leveraging existing infrastructure, the solution significantly lowers both upfront investments and ongoing operational expenses. Integrating multiple network layer functions into a single layer streamlines equipment needs and reduces management complexity. The platform’s support for high-capacity, [long-reach connectivity optics](https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/transceiver-modules/datasheet-c78-744377.html) minimizes costly Layer 1 infrastructure, while the expandable Layer 3 ring topology allows new sites to be added easily without major redesigns. Advanced Layer 3 protection further enhances network reliability by providing near-instant recovery from link failures. Initial engagements and analysis indicate up to 45% CAPEX savings, 95% lower power consumption, and an 80% reduction in space requirements.
+
 
 ## Conclusion
