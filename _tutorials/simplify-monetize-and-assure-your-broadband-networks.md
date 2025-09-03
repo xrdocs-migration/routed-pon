@@ -173,6 +173,7 @@ An assured network delivers significant business value across several key areas:
 
 As discussed above, we can use either the web UI or netconf application to provision and monitor the PON network. We can use Cisco NSO for the same. [NSO] (https://www.cisco.com/site/us/en/products/networking/software/crosswork-network-services-orchestrator/index.html) is a multi-vendor, multi-domain service orchestration platform designed to automate the configuration and management of network services across diverse network devices and technologies. It acts as a central control point, abstracting away the complexities of individual device configurations and enabling end-to-end service delivery automation. NSO uses a model-driven approach (specifically YANG models) to define services and devices, allowing for consistent and reliable automation regardless of the vendor or technology involved.
 
+![NSO.png]({{site.baseurl}}/images/NSO.png)
 
 
 **Business Case for Cisco NSO:**
@@ -220,6 +221,7 @@ The above xml service template applies a service config to a particular ONU. Thi
 ### Secure DDoS 
 
 This is a specialized software solution integrated directly into Cisco IOS XR routers, such as the NCS 540 series, to provide robust security at the network edge. It autonomously detects and mitigates DDoS attacks in real-time at the ingress points of the network. This approach is particularly beneficial for low-latency applications, mobile, and IoT environments, and for service providers managing large-scale, distributed networks. 
+
 
 
 **Business Values and Advantages:**
