@@ -269,3 +269,14 @@ The above figure illustrates how Cisco Routed PON with pluggable optics empowers
 
 
 ## Conclusion
+
+Cisco Routed PON offers a powerful and future-ready solution for broadband service providers seeking to scale bandwidth, streamline operations, and reduce costs. By combining simplified hardware, flexible scalability, and advanced network protection, it enables efficient, reliable, and cost-effective network deployments. With significant savings in capital expenditure, power, and space, Cisco Routed PON provides a strong foundation for meeting evolving subscriber demands while maximizing operational efficiency and network resilience. If you want to learn about the solution please get in touch with us and your Cisco Representative.
+
+## References
+
+- [Cisco Routed PON](https://www.cisco.com/site/us/en/solutions/routed-pon/index.html)
+- [Customer Testimonial](https://www.linkedin.com/posts/ricky-martinez-a038831b7_cisco-activity-7337864644474155008-0WNd)
+- [Cisco Broadband Solutions](https://www.cisco.com/site/us/en/solutions/service-provider/networking/broadband/index.html)
+- [Routed Access for Broadband Providers](https://xrdocs.io/design/blogs/2023-11-15-routed-access-for-rural-broadband/)
+- [Cisco Pluggable OLT datasheet](https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/transceiver-modules/pon-sfp-modules-ds.html)
+- 
