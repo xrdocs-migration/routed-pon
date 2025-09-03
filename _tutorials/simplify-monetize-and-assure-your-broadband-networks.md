@@ -160,9 +160,6 @@ The dashboard provides visual displays for delay metrics in real time to identif
 
 ![Screenshot 2025-09-02 at 3.29.05 PM.png]({{site.baseurl}}/images/Screenshot 2025-09-02 at 3.29.05 PM.png)
 
-
-![Screenshot 2025-09-02 at 2.43.03 PM.png]({{site.baseurl}}/images/Screenshot 2025-09-02 at 2.43.03 PM.png)
-
 The analytics engine is used to identify trends and patterns in network performance, enabling proactive optimization. 
 
 An assured network delivers significant business value across several key areas:
