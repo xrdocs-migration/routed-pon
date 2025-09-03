@@ -222,6 +222,7 @@ The above xml service template applies a service config to a particular ONU. Thi
 
 This is a specialized software solution integrated directly into Cisco IOS XR routers, such as the NCS 540 series, to provide robust security at the network edge. It autonomously detects and mitigates DDoS attacks in real-time at the ingress points of the network. This approach is particularly beneficial for low-latency applications, mobile, and IoT environments, and for service providers managing large-scale, distributed networks. 
 
+![secure-edge-protection-ds_0.png]({{site.baseurl}}/images/secure-edge-protection-ds_0.png)
 
 
 **Business Values and Advantages:**
