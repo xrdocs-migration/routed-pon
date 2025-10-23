@@ -19,7 +19,7 @@ position: hidden
 
 ## Introduction
 
-In our previous [blog post](https://xrdocs.io/routed-pon/tutorials/cisco-routed-pon-whitepaper/), we introduced the Cisco Routed PON solution, highlighting the challenges faced in current PON deployments and how Cisco’s approach addresses these issues. We also explored various government broadband initiatives and funding efforts designed to expand broadband access in underserved communities. Additionally, we provided an overview of the solution’s key components and high-level architecture.
+In our previous [blog post]({{site.url}}/routed-pon/tutorials/cisco-routed-pon-whitepaper/), we introduced the Cisco Routed PON solution, highlighting the challenges faced in current PON deployments and how Cisco’s approach addresses these issues. We also explored various government broadband initiatives and funding efforts designed to expand broadband access in underserved communities. Additionally, we provided an overview of the solution’s key components and high-level architecture.
 
 
 In this whitepaper, we will take a deeper look into the Cisco Routed PON solution. We will examine its architecture in detail and explore how it enables broadband providers to differentiate their offerings and unlock new monetization opportunities
@@ -39,7 +39,7 @@ How do these subscriber trends impact operators? In recent years, we have witnes
 Cisco's Routed PON solution is designed to modernize rural broadband networks by moving from traditional Layer 2 (switching) access to a Layer 3 (routed) architecture. This approach places IP routing closer to subscribers, simplifying the network by reducing the number of protocols and layers needed between access and core, and enabling more scalable and manageable broadband deployments. 
 
 
-### Why Move from Layer2 Access to [Routed Access]([[Reference](https://xrdocs.io/design/blogs/2023-11-15-routed-access-for-rural-broadband/)])?
+### Why Move from Layer2 Access to [Routed Access]([[Reference]({{site.url}}/design/blogs/2023-11-15-routed-access-for-rural-broadband/)])?
 
 **Scalability**: Layer 2 networks become complex and difficult to scale as the number of subscribers increases due to broadcast domains, MAC address learning, and spanning-tree limitations.
 
@@ -66,7 +66,7 @@ Furthermore, Cisco's solution leverages advanced hardware technologies, includin
 
 ## Cisco Routed PON Architecture
 
-As described in the previous [blog](https://xrdocs.io/routed-pon/tutorials/cisco-routed-pon-whitepaper/), following are the main components. The first one is the physical hardware itself, that is the NCS540 or NCS5500 or NCS5700 router which is hosting the OLT pluggable as well as the PON controller software. The OLT pluggables can be plugged into the supported SFP+ ports. The second component is the OLT pluggable. It consists of the L1 transceiver as well as the L2 MAC features for PON functions. The third component is the ONUs/ONTs which will be used to plug the end devices. The fourth one is the PON manager which is a single web GUI for configuring, monitoring and diagnosing the end to end PON functionalities. The final one is the Cisco Provider connectivity assurance which will help to deliver assured services to the end users. Let us discuss how each components are stitched together. 
+As described in the previous [blog]({{site.url}}/routed-pon/tutorials/cisco-routed-pon-whitepaper/), following are the main components. The first one is the physical hardware itself, that is the NCS540 or NCS5500 or NCS5700 router which is hosting the OLT pluggable as well as the PON controller software. The OLT pluggables can be plugged into the supported SFP+ ports. The second component is the OLT pluggable. It consists of the L1 transceiver as well as the L2 MAC features for PON functions. The third component is the ONUs/ONTs which will be used to plug the end devices. The fourth one is the PON manager which is a single web GUI for configuring, monitoring and diagnosing the end to end PON functionalities. The final one is the Cisco Provider connectivity assurance which will help to deliver assured services to the end users. Let us discuss how each components are stitched together. 
 
 ![Screenshot 2025-08-28 at 2.18.12 PM.png]({{site.baseurl}}/images/Screenshot 2025-08-28 at 2.18.12 PM.png)
 
@@ -276,6 +276,6 @@ Cisco Routed PON offers a powerful and future-ready solution for broadband servi
 - [Cisco Routed PON](https://www.cisco.com/site/us/en/solutions/routed-pon/index.html)
 - [Customer Testimonial](https://www.linkedin.com/posts/ricky-martinez-a038831b7_cisco-activity-7337864644474155008-0WNd)
 - [Cisco Broadband Solutions](https://www.cisco.com/site/us/en/solutions/service-provider/networking/broadband/index.html)
-- [Routed Access for Broadband Providers](https://xrdocs.io/design/blogs/2023-11-15-routed-access-for-rural-broadband/)
+- [Routed Access for Broadband Providers]({{site.url}}/design/blogs/2023-11-15-routed-access-for-rural-broadband/)
 - [Cisco Pluggable OLT datasheet](https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/transceiver-modules/pon-sfp-modules-ds.html)
 -
